@@ -15,7 +15,7 @@
 # Unless it already ends in 'ing', in which case
 # add 'ly' instead.
 # If the string length is less than 3, leave it unchanged.
-# Return the resulting string.
+# Return the resulting string. f
 def verbing(s):
     length = len(s)
     if length > 2:
