@@ -10,7 +10,7 @@ def extract_names(filename):
   f = open(filename, 'r') # f abre o texto completo
   text = f.read() # text lê o texto completo
 
-  #varedura dentro de texto para buscar o ano
+  #varedura dentro de texto para buscar o ano 
   year_match = re.search(r'Popularity\sin\s(\d{4})', text) #year_match recebe o texto onde esta o ano.
   year = year_match.group(1) # .group(1) pega o que esta dentro do () na busca anterior, ou seja, o ano
   names.append(year) #coloco o ano dentro da lista names
